@@ -1,4 +1,4 @@
-package yanp.logic;
+package de.uvwxy.yap.logic;
 
 import org.quartz.Job;
 import org.quartz.JobDataMap;

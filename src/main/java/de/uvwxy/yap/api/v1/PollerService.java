@@ -1,4 +1,4 @@
-package yanp.api.v1;
+package de.uvwxy.yap.api.v1;
 
 import static org.quartz.JobBuilder.newJob;
 import static org.quartz.SimpleScheduleBuilder.simpleSchedule;
@@ -15,7 +15,7 @@ import org.quartz.SchedulerFactory;
 import org.quartz.Trigger;
 import org.quartz.impl.StdSchedulerFactory;
 
-import yanp.logic.PollerJob;
+import de.uvwxy.yap.logic.PollerJob;
 
 @Path("v1")
 public class PollerService {
